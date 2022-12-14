@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/favourite_champ"
+    android:layout_width="80dp"
+    android:layout_height="210dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/fav_champ"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fav_champ_name"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/fav_champ"
+        app:layout_constraintStart_toStartOf="@+id/fav_champ"
+        app:layout_constraintTop_toBottomOf="@+id/fav_champ" />
+
+    <TextView
+        android:id="@+id/fav_champ_level"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/lightgray"
+        android:textSize="14sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/fav_champ_name"
+        app:layout_constraintStart_toStartOf="@+id/fav_champ_name"
+        app:layout_constraintTop_toBottomOf="@+id/fav_champ_name" />
+
+    <TextView
+        android:id="@+id/fav_champ_points"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/lightgray"
+        android:textSize="14sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/fav_champ_level"
+        app:layout_constraintStart_toStartOf="@+id/fav_champ_level"
+        app:layout_constraintTop_toBottomOf="@+id/fav_champ_level" />
+
+
+    <TextView
+        android:id="@+id/best_score_text"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="Last played: "
+        android:textColor="@color/lightgray"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fav_champ_points" />
+
+    <TextView
+        android:id="@+id/last_time_played"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:textColor="@color/lightgray"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/best_score_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="navigationColor">#FF343F4B</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="theme">#152142</color>
+    <color name="gray">#FF808080</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="silver">#92b1bd</color>
+    <color name="gold">#ffb93b</color>
+    <color name="platinum">#11b288</color>
+    <color name="iron">#505050</color>
+    <color name="diamond">#5393ca</color>
+    <color name="master">#5b4ba5</color>
+    <color name="grandmaster">#c440da</color>
+    <color name="challenger">#ed6767</color>
+    <color name="bronze">#ca9372</color>
+    <color name="unranked">#33808080</color>
+    <color name="lightgray">#99DDE6ED</color>
+    <color name="red">#F95F62</color>
+    <color name="green">#13CE66</color>
+    <style name="NavigationView" >
+        <item name="android:listDivider">@color/silver</item>
+        <item name="android:textColorSecondary">@color/silver</item>
+        <item name="android:background">@color/navigationColor</item>
+        <item name="listPreferredItemHeightSmall">110dp</item>
+    </style>
+</resources>

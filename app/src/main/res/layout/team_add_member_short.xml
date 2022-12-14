@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="80dp"
+    android:background="#44969FAA"
+    >
+
+    <ImageView
+        android:id="@+id/inviteMemberIcon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/inviteMemberName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/inviteMemberIcon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/rejectInvitationMember"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/ic_baseline_remove_circle_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rank_solo_icon2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_marginStart="10dp"
+        android:background="@color/unranked"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        android:tooltipText="Ranked Solo/Duo"
+        app:layout_constraintStart_toEndOf="@+id/inviteMemberIcon"
+        app:layout_constraintTop_toBottomOf="@+id/inviteMemberName" />
+
+    <TextView
+        android:id="@+id/rank_flex_icon2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="5dp"
+
+        android:background="@color/unranked"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:tooltipText="Ranked Flex"
+        app:layout_constraintStart_toEndOf="@+id/rank_solo_icon2"
+        app:layout_constraintTop_toBottomOf="@+id/inviteMemberName" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

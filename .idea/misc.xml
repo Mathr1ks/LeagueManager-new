@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LeagueManager/app/src/main/res/layout/activity_main.xml" value="0.16197916666666667" />
+        <entry key="..\:/MoblneChmury/app/src/main/res/layout/activity_history.xml" value="0.17831813576494426" />
+        <entry key="..\:/MoblneChmury/app/src/main/res/layout/activity_home_page.xml" value="0.2" />
+        <entry key="..\:/MoblneChmury/app/src/main/res/layout/champ_history.xml" value="0.9" />
+        <entry key="..\:/MoblneChmury/app/src/main/res/layout/champ_info_live.xml" value="0.36666666666666664" />
+        <entry key="..\:/MoblneChmury/app/src/main/res/layout/team_member.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/drawable/ic_round_check_box_outline_blank_24.xml" value="0.3671875" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/drawable/my_bubble.xml" value="0.3671875" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/drawable/oval_default_button.xml" value="0.3671875" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/active_challenges.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_add_challange_result.xml" value="0.1984375" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_challange_detail.xml" value="0.1984375" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_challenges.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_change_password.xml" value="0.1984375" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_change_summoner.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_find_summoner.xml" value="0.25" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_find_summoner_page.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_history.xml" value="0.1984375" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_home_page.xml" value="0.2" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_home_page_maine.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_incoming_challenges.xml" value="0.2838541666666667" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_main2.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_main_page.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_ranking.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_register_page.xml" value="0.25" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_resetpassword_page.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_send_challenge.xml" value="0.2838541666666667" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_settings.xml" value="0.11367753623188406" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_summonername.xml" value="0.25" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_team.xml" value="0.15" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_team_chat.xml" value="0.33" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_user_without_team.xml" value="0.1984375" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/champ_history.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/champ_history_short.xml" value="0.21" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/drawer.xml" value="0.13880445795339413" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/fragment_favourite_champ.xml" value="0.11367753623188406" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/friend_message.xml" value="0.1984375" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/header_history.xml" value="0.1984375" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/header_livegame.xml" value="0.1984375" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/information_about_team.xml" value="0.67" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/live_game_info_team.xml" value="0.1984375" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/my_message.xml" value="0.1984375" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/nav_header.xml" value="0.11367753623188406" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/platforms_spinner.xml" value="0.11367753623188406" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/team_add_member.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/team_add_member_short.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/team_history.xml" value="0.5" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/team_member.xml" value="0.1984375" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layouts/teams/drawable/ic_launcher_background.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layouts/teams/mipmap-anydpi-v26/ic_launcher.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/layouts/teams/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/48881/AndroidStudioProjects/LeagueManager/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/HonkHonk/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/HonkHonk/AndroidStudioProjects/LeagueManager/app/src/main/res/layout/activity_main_page.xml" value="0.15" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

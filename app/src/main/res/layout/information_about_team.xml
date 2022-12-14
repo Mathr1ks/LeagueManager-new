@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bgcolor"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#550000B3">
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Win"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teamStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:text="30/23/23"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/result"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/barons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="1"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/teamStats"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dragons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="3"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/barons"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/towers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="7"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/dragons"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/dragon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_rook"
+        app:layout_constraintEnd_toStartOf="@+id/towers"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tower"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_dragon"
+        app:layout_constraintEnd_toStartOf="@+id/dragons"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/baron"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_kraken"
+        app:layout_constraintEnd_toStartOf="@+id/barons"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

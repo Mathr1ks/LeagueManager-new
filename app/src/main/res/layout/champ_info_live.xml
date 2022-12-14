@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg2"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#152142">
+    <ImageView
+        android:id="@+id/champavatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/summoner1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toEndOf="@+id/champavatar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/summoner2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="2dp"
+        app:layout_constraintStart_toEndOf="@+id/champavatar"
+        app:layout_constraintTop_toBottomOf="@+id/summoner1" />
+
+    <ImageView
+        android:id="@+id/rune1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toEndOf="@+id/summoner1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/rune2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="3dp"
+        app:layout_constraintStart_toEndOf="@+id/summoner2"
+        app:layout_constraintTop_toBottomOf="@+id/rune1" />
+
+    <TextView
+        android:id="@+id/rank"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/unranked"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/rune1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="DaroMonster"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/rank"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

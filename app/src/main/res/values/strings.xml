@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">LeagueManager</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_username">Username</string>
+    <string name="pass_reminder"><u>Forgot your password?</u></string>
+    <string name="registeracc">Don\'t have an account?</string>
+    <string name="renew">Renew</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="best_score">Best Score:</string>
+    <string name="title_activity_find_summoner">FindSummoner</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="username">Username</string>
+    <string-array name="platform">
+        <item>BR1</item>
+        <item>EUN1</item>
+        <item>EUW1</item>
+        <item>JP1</item>
+        <item>KR</item>
+        <item>LA1</item>
+        <item>LA2</item>
+        <item>NA1</item>
+        <item>OC1</item>
+        <item>TR1</item>
+        <item>RU</item>
+    </string-array>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="rank">Rank:</string>
+    <string name="name">Name:</string>
+    <string name="challenges">Challenges</string>
+    <string name="ranking">Ranking</string>
+    <string name="date">date</string>
+</resources>

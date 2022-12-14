@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buttonArrow"
+    android:background="#44969FAA"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="80dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/resultColor"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@color/unranked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/matchTime"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/resultText" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/championIcon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toEndOf="@+id/resultColor"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/summonerSpell1"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toEndOf="@+id/championIcon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/summonerSpell2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/championIcon"
+        app:layout_constraintTop_toBottomOf="@+id/summonerSpell1" />
+
+    <ImageView
+        android:id="@+id/summonerPrimaryPerks"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toEndOf="@+id/summonerSpell1"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/summonerSubPerks"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/summonerSpell2"
+        app:layout_constraintTop_toBottomOf="@+id/summonerPrimaryPerks" />
+
+    <TextView
+        android:id="@+id/playerKills"
+        android:layout_width="27dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/summonerPrimaryPerks"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tempslash1"
+        android:layout_width="7dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="/"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/playerKills"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/playerDeaths"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tempslash1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tempslash2"
+        android:layout_width="7dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="/"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/playerDeaths"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/playerAssists"
+        android:layout_width="27dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tempslash2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/playerKDA"
+        android:layout_width="60dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/playerAssists"
+        app:layout_constraintStart_toStartOf="@+id/playerKills"
+        app:layout_constraintTop_toBottomOf="@id/playerDeaths" />
+
+    <TextView
+        android:id="@+id/matchType"
+        android:layout_width="100dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/lightgray"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/playerAssists"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/matchDate"
+        android:layout_width="100dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textColor="@color/lightgray"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/playerAssists"
+        app:layout_constraintTop_toBottomOf="@+id/matchType" />
+
+    <ImageView
+        android:id="@+id/buildItem1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/unranked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/resultColor" />
+
+    <ImageView
+        android:id="@+id/buildItem2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/unranked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buildItem1" />
+
+    <ImageView
+        android:id="@+id/buildItem3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/unranked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buildItem2" />
+
+    <ImageView
+        android:id="@+id/buildItem4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/unranked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buildItem3" />
+
+    <ImageView
+        android:id="@+id/buildItem5"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/unranked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buildItem4" />
+
+    <ImageView
+        android:id="@+id/buildItem6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/unranked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buildItem5" />
+
+    <ImageView
+        android:id="@+id/buildTotem"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/unranked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
